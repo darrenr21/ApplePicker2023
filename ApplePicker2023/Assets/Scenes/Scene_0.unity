@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -301,6 +302,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ef5dd45e13eaa4d83df8bb5f584e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 1425806702022439548, guid: f8c257c7a76ef5a4c8a5a14802366594, type: 3}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
 --- !u!1001 &3167438734604703135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -308,6 +325,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2750596760773254973, guid: f775460cc16fda54a8a587409f216fd8, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -2750596760773254973, guid: f775460cc16fda54a8a587409f216fd8, type: 3}
+      propertyPath: appleprefab
+      value: 
+      objectReference: {fileID: 7757689049438955654, guid: 2abe768fb509c0644b3ca8fb9addef5d, type: 3}
+    - target: {fileID: -2750596760773254973, guid: f775460cc16fda54a8a587409f216fd8, type: 3}
+      propertyPath: changeDirChance
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: -2750596760773254973, guid: f775460cc16fda54a8a587409f216fd8, type: 3}
+      propertyPath: leftandRightEdge
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 3167438734211879990, guid: f775460cc16fda54a8a587409f216fd8, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -351,6 +384,10 @@ PrefabInstance:
     - target: {fileID: 3167438734211879990, guid: f775460cc16fda54a8a587409f216fd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167438734211879991, guid: f775460cc16fda54a8a587409f216fd8, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3167438734211879992, guid: f775460cc16fda54a8a587409f216fd8, type: 3}
       propertyPath: m_Name
