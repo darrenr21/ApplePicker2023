@@ -1,0 +1,560 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1694564054420414, "dur": 805757, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694564054420601, "dur": 1307, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694564054421910, "dur": 31946, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694564054453856, "dur": 332060, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694564054785918, "dur": 426254, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694564055212174, "dur": 13997, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694564055226661, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1694564054698800, "dur": 81776, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694564054699555, "dur": 29555, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694564054766459, "dur": 3238, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694564054769700, "dur": 10871, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694564054770207, "dur": 9809, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694564054784128, "dur": 950, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694564054783525, "dur": 1566, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694564055226758, "dur": 210, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1694564054821740, "dur":1265, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564054823007, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1694564054823061, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1694564054823073, "dur":543, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1694564054823635, "dur":403, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564054824038, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055195763, "dur":350, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196113, "dur":104, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196218, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196222, "dur":86, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196309, "dur":39, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196348, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196354, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196356, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196362, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196363, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196367, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196369, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196373, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196374, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196378, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196379, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196386, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196388, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196392, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196393, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196397, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196399, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196402, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196404, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196408, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196409, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196412, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196414, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196418, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196419, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196423, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196424, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196427, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196429, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196433, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196435, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196438, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196440, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196444, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196445, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196448, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196450, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196453, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196455, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196458, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196460, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196464, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196466, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196469, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196487, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055196493, "dur":1656, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1694564054823555, "dur":490, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054824048, "dur":3194, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054827283, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1694564054827290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054829116, "dur":603, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1694564054829724, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1694564054829786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054830246, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1694564054832165, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1694564054832295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054832720, "dur":6130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1694564054838905, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054839227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054839234, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054841840, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054842229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054842235, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054846259, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054846609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054846615, "dur":5549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054852210, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054852559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054852565, "dur":5710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054858322, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054858693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054858700, "dur":7685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054866448, "dur":73325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054939778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564054939786, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564054941269, "dur":175713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564055116985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694564055116992, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694564055117907, "dur":77863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694564054823588, "dur":473, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694564054824061, "dur":3186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694564054827252, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1694564054827496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694564054852429, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1694564054854240, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694564054854658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694564054854664, "dur":6976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694564054861698, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694564054862118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694564054862125, "dur":16010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694564054878186, "dur":59322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694564054937539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694564054937548, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694564054938812, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694564054939173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694564054939181, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694564054940488, "dur":253198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694564055193691, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694564055193701, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694564055195683, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1694564055195685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694564054823580, "dur":471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694564054824051, "dur":3249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694564054827300, "dur":58346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023.exe" }}
+,{ "pid":12345, "tid":3, "ts":1694564054885650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694564054885658, "dur":41316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023.exe" }}
+,{ "pid":12345, "tid":3, "ts":1694564054927020, "dur":108936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694564055035962, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694564055035974, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694564055037268, "dur":158542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694564054824050, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694564054824052, "dur":3197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694564054827252, "dur":16135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1694564054843391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694564054843406, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1694564054845535, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694564054846004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694564054846011, "dur":4518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694564054850580, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694564054850992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694564054850998, "dur":5554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694564054856625, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694564054856939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694564054856945, "dur":6864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694564054863854, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694564054864252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694564054864286, "dur":13184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694564054877514, "dur":197229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694564055074748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694564055074757, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694564055076211, "dur":119679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694564054823640, "dur":431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694564054824071, "dur":3173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694564054827252, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1694564054827486, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694564054850703, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1694564054852495, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694564054852920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694564054852926, "dur":5984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694564054858975, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694564054859446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694564054859453, "dur":6834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694564054866340, "dur":245218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694564055111563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694564055111571, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694564055113290, "dur":82490, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694564054823672, "dur":404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694564054824077, "dur":3176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694564054827261, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1694564054827475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694564054839486, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1694564054841988, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694564054842347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694564054842353, "dur":4329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694564054846736, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694564054847131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694564054847138, "dur":6355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694564054853563, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694564054853924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694564054853931, "dur":6992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694564054860984, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694564054861348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694564054861354, "dur":12916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694564054874329, "dur":119447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694564054993781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694564054993789, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694564054995673, "dur":200152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694564054823689, "dur":393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694564054824082, "dur":3161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694564054827251, "dur":39118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1694564054866372, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694564054867953, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1694564054869137, "dur":62688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694564054931829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694564054931840, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694564054932956, "dur":134612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694564055067573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694564055067582, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694564055068786, "dur":127080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694564054823717, "dur":375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694564054824092, "dur":3166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694564054827262, "dur":15533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1694564054842799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694564054842815, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1694564054845561, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694564054845996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694564054846002, "dur":4442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694564054850506, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694564054850923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694564054850929, "dur":6025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694564054857030, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694564054857371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694564054857377, "dur":6394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694564054863824, "dur":129896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694564054993724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694564054993731, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694564054995735, "dur":200064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054823750, "dur":353, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054824103, "dur":3152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054827256, "dur":15432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1694564054842692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054842707, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1694564054845236, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694564054846112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054846118, "dur":5152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694564054851325, "dur":1373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694564054852702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054852709, "dur":7238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694564054859996, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694564054860439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054860446, "dur":14020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694564054874532, "dur":78823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694564054953360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054953371, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694564054954994, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1694564054955041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054955080, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1694564054956289, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1694564054956334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054956340, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1694564054957907, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1694564054957980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054957986, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1694564054959088, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1694564054959255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054959261, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1694564054960167, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1694564054961091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054961097, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1694564054962099, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1694564054962140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054962145, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1694564054963344, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1694564054963387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054963393, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1694564054964934, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1694564054965004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694564054965009, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1694564054966806, "dur":228962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694564054823771, "dur":340, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694564054824111, "dur":3170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694564054827281, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1694564054827489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694564054851850, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1694564054854948, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694564054855420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694564054855426, "dur":6667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694564054862147, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694564054862616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694564054862623, "dur":12176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694564054874851, "dur":216856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694564055091710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694564055091717, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694564055093543, "dur":102341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694564054823795, "dur":323, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694564054824118, "dur":3158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694564054827279, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1694564054827521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694564054853554, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1694564054855825, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694564054856103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694564054856108, "dur":6522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694564054862683, "dur":99109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694564054961795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694564054961802, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694564054963752, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1694564054963799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694564054963804, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1694564054965472, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1694564054965515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694564054965521, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1694564054966558, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1694564054966723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694564054966728, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1694564054967791, "dur":227973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694564054823815, "dur":308, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694564054824123, "dur":3144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694564054827267, "dur":15557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1694564054842827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694564054842845, "dur":2557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1694564054845543, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694564054846095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694564054846101, "dur":5805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694564054851972, "dur":793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694564054852768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694564054852774, "dur":6527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694564054859354, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694564054859722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694564054859728, "dur":7011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694564054866797, "dur":114246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694564054981063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694564054981075, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694564054982604, "dur":213325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694564054823836, "dur":292, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694564054824128, "dur":3132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694564054827262, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1694564054827419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694564054837968, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1694564054840355, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694564054840667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694564054840673, "dur":2871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694564054843596, "dur":1729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694564054845329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694564054845336, "dur":4057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694564054849445, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694564054849947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694564054849953, "dur":6556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694564054856581, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694564054857157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694564054857164, "dur":7434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694564054864660, "dur":226384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694564055091049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694564055091058, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694564055092217, "dur":103701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694564054823861, "dur":275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694564054824136, "dur":3135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694564054827275, "dur":14887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1694564054842166, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694564054842335, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1694564054845225, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694564054845756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694564054845763, "dur":3398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694564054849221, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694564054849590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694564054849617, "dur":6857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694564054856540, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694564054856941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694564054856947, "dur":6611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694564054863623, "dur":121837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694564054985464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694564054985499, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694564054986860, "dur":209093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694564054823885, "dur":260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694564054824146, "dur":3117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694564054827273, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1694564054827524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694564054865121, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1694564054866964, "dur":170591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694564055037559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694564055037567, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694564055039088, "dur":156810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054823905, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054824149, "dur":3134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054827283, "dur":3420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054830707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054831093, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054832840, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054833138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054833294, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054835159, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054835427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054835432, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054837017, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054837403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054837409, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054839702, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054840035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054840041, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054842489, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054842825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054842831, "dur":3805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054846688, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054847071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054847078, "dur":5919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054853057, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054853366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054853372, "dur":6615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054860053, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054860408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054860415, "dur":6497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054866970, "dur":116505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054983482, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694564054983493, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694564054985913, "dur":209848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694564054823942, "dur":212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694564054824154, "dur":3115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694564054827269, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1694564054827474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694564054838559, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1694564054840412, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564054840789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694564054840795, "dur":3040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564054843890, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564054844290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694564054844319, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564054846979, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564054847294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694564054847301, "dur":6322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564054853706, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564054854183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694564054854189, "dur":7083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564054861321, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564054861722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694564054861727, "dur":12907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564054874727, "dur":186487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564055061221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694564055061233, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694564055062690, "dur":133141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694564054823962, "dur":198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694564054824160, "dur":3125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694564054827293, "dur":29005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694564054856302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694564054856395, "dur":4755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694564054861201, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694564054861856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694564054861862, "dur":16650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694564054878551, "dur":143195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694564055021752, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694564055021765, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694564055023400, "dur":172390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694564054823982, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694564054824165, "dur":3114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694564054827282, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":19, "ts":1694564054827483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694564054839730, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":19, "ts":1694564054841398, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694564054841724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694564054841730, "dur":3882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694564054845707, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694564054846043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694564054846049, "dur":5863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694564054852002, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694564054852326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694564054852332, "dur":5367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694564054857748, "dur":1770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694564054859522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694564054859528, "dur":9154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694564054868743, "dur":122043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694564054990791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694564054990800, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694564054992116, "dur":203790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054824005, "dur":165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054824170, "dur":3127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054827297, "dur":1145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":20, "ts":1694564054828445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054828576, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":20, "ts":1694564054832960, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054833304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054833439, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054835018, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054835341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054835349, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054836685, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054837008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054837014, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054838481, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054838839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054838845, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054840773, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054841154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054841160, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054844819, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054845257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054845292, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054848705, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054849025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054849031, "dur":7123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054856220, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054856932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054856939, "dur":7450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054864444, "dur":97183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054961631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054961638, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694564054965622, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":20, "ts":1694564054965667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694564054965672, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":20, "ts":1694564054966873, "dur":228893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054824025, "dur":151, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054824176, "dur":3075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054827252, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":21, "ts":1694564054827412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054830216, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":21, "ts":1694564054832662, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054833025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054833347, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054835399, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054835710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054835716, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054837164, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054837464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054837470, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054839671, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054840026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054840032, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054842145, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054842454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054842460, "dur":4513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054847075, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054847499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054847530, "dur":7046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054854637, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054855134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054855141, "dur":10660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054866151, "dur":127475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054993631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1694564054993639, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":21, "ts":1694564054995242, "dur":200602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1694564054823616, "dur":452, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1694564054824068, "dur":3177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1694564054827252, "dur":14640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":22, "ts":1694564054841896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1694564054842000, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":22, "ts":1694564054843785, "dur":147931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":22, "ts":1694564054991720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1694564054991728, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":22, "ts":1694564054992974, "dur":202898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1694564054824086, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1694564054824087, "dur":3199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1694564054827287, "dur":105763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":23, "ts":1694564054937387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1694564054937398, "dur":13762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":23, "ts":1694564054951206, "dur":39060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":23, "ts":1694564054990271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1694564054990280, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":23, "ts":1694564054991687, "dur":204256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1694564054824131, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1694564054824131, "dur":3126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1694564054827258, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":24, "ts":1694564054827523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1694564054863992, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":24, "ts":1694564054866878, "dur":174910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":24, "ts":1694564055041792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1694564055041799, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DSR35/Desktop/AppleTreeBuild/ApplePicker2023_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":24, "ts":1694564055043011, "dur":152846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694564055200038, "dur":1470, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1694564055227023, "dur": 637, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694564055226647, "dur": 1031, "ph": "X", "name": "Write chrome-trace events", "args": {} },
